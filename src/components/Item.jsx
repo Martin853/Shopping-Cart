@@ -8,9 +8,14 @@ export const Item = (props) => {
           src="https://designshack.net/wp-content/uploads/placeholder-image.png"
           className="w-full rounded bg-violet-600"
         />
-        <h1 className="font-montserrat text-center font-medium text-lg select-none">
-          Item Name
-        </h1>
+        <div className="flex justify-evenly">
+          <h1 className="font-montserrat text-center font-medium text-lg select-none">
+            {props.title}
+          </h1>
+          <h1 className="font-montserrat text-center font-medium text-lg select-none">
+            Price: {props.price}$
+          </h1>
+        </div>
         <button className="w-full h-full rounded-lg bg-violet-600 outline-none border-none font-montserrat text-white text-lg select-none hover:bg-violet-700">
           Add To Cart
         </button>
