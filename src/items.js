@@ -51,7 +51,7 @@ export const ITEMS = [
     id: 9,
     title: 'Pre-Workout',
     price: '35',
-    image: 'https://supplementalbania.com/wp-content/uploads/2023/05/51-supplementalbania.png',
+    image: 'https://media.bodyandfit.com/i/bodyandfit/c4-extreme-pre-workout_Image_01?$TTL_PRODUCT_IMAGES$&layer0=$PDP_004$&fmt=auto&img404=no-product-image&v=1&locale=en-gb,*',
   },
   {
     id: 10,
