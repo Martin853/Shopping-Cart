@@ -1,5 +1,10 @@
-import React from 'react';
+import React from 'react'
+import { Navbar } from '../components/Navbar'
 
 export const ShoppingCart = () => {
-  return <div>ShoppingCart</div>;
-};
+  return (
+    <div>
+      <Navbar/>
+    </div>
+  )
+}
