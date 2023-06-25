@@ -10,8 +10,8 @@ export const Item = (props) => {
     <div className='w-full h-72  bg-stone-200 rounded-lg flex justify-center items-center'>
       <div className='w-10/12 mx-auto h-full py-4  my-auto flex flex-col gap-2'>
         <img
-          src='https://designshack.net/wp-content/uploads/placeholder-image.png'
-          className='w-full h-full rounded bg-violet-600'
+          src={props.image}
+          className='w-2/3 h-auto justify-self-center self-center rounded bg-violet-600'
         />
         <div className='flex justify-evenly'>
           <h1 className='font-montserrat text-center font-medium text-lg select-none'>
