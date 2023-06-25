@@ -13,6 +13,7 @@ export const Shop = () => {
             key={item.id}
             title={item.title}
             price={item.price}
+            image={item.image}
             id={item.id}
           />
         ))}
