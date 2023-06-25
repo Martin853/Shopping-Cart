@@ -7,7 +7,7 @@ export const Item = (props) => {
   const cartItemAmount = cartItems[props.id];
 
   return (
-    <div className='w-full h-72  bg-stone-200 rounded-lg flex justify-center items-center'>
+    <div className='w-full h-fit  bg-stone-200 rounded-lg flex justify-center items-center'>
       <div className='w-10/12 mx-auto h-full py-4  my-auto flex flex-col gap-2'>
         <img
           src={props.image}
