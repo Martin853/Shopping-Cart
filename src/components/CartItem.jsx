@@ -6,7 +6,7 @@ export const CartItem = (props) => {
   const { id, title, price, image } = props.data;
 
   return (
-    <div className='grid grid-cols-5 py-4 place-items-center border-t-2 border-b-2 border-zinc-400'>
+    <div className='grid md:grid-cols-5 md:grid-rows-1 py-4 place-items-center border-t-2 border-b-2 border-zinc-400 grid-cols-1 grid-rows-4'>
       <img src={image} className=' w-24 h-auto' />
       <h1 className='font-montserrat text-2xl font-semibold'>{title}</h1>
       <h1 className='font-montserrat text-2xl font-semibold'>{price}$</h1>
